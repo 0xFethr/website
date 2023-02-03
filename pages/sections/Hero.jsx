@@ -40,7 +40,7 @@ function Hero() {
       <div id='hero' 
            className='hero w-screen h-screen flex items-center justify-center relative' 
            ref={body}>
-          <ul className=' font-Gazapacho italic font-[1000] text-6xl leading-[80%] tracking-widest text-center '>
+          <ul className=' font-Gazapacho italic font-[1000] text-8xl leading-[80%] tracking-widest text-center '>
               <li className='relative z-5'>Latest News</li>
               <li className='relative z-20'>Delivered with</li>
               <li className='relative z-20'>Authenticity</li>
@@ -48,16 +48,16 @@ function Hero() {
           
           <div className="absolute z-10 ml-20 mb-10">
               <Image  src={'/logo.svg'}
-                      width={120}
-                      height={500}
+                      width={160}
+                      height={550}
                       className='backdrop '
                       style={{transform:'translateY('+(translateY.current/12).toString()+'px)'}} 
                       alt={'Feather'}/>
           </div>   
           <div className="absolute z-10 ml-10">
               <Image  src={'/logo.svg'}
-                      width={250}
-                      height={250}
+                      width={300}
+                      height={300}
                       style={{transform:'translateY('+(translateY.current/12).toString()+'px)'}} 
                       alt={'Feather'}/>
           </div>      

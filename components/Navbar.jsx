@@ -7,7 +7,7 @@ function Navbar({state}) {
         <Link className='w-1/4' href={'#hero'}>What?</Link>
         <Link className='w-1/4' href={'#social'}>Why?</Link>
         <Link className='w-1/4' href={'#value'}>How?</Link>
-        <Link className='bg-main rounded-full w-1/4 text-secondary text-center h-full' href={'#CTA'}>Start</Link>
+        <Link className='bg-main rounded-full w-1/4 text-secondary text-center h-full flex items-center justify-center ' href={'#CTA'}>Start</Link>
     </div>
   )
 }
