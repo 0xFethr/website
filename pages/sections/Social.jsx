@@ -42,25 +42,25 @@ function Social() {
           <div className='sticky h-[20%] top-[8rem]'>
             <Image src={'/news.jpg'}
                   className=' relative bg-[green] rounded-[20%] z-10 grayscale'
-                  width={300}
-                  height={100}/>
+                  width={500}
+                  height={200}/>
             <div className="absolute z-10 ml-10 top-20 -right-5">
                 <Image  src={'/logo.svg'}
-                        width={150}
+                        width={160}
                         height={500}
                         className='backdrop '
                         alt={'Feather'}/>
             </div>   
             <div className="absolute z-10 ml-10 top-0 -right-20">
                 <Image  src={'/logo.svg'}
-                        width={250}
-                        height={250}
+                        width={300}
+                        height={300}
                         alt={'Feather'}/>
             </div>   
           </div>
         </div>
         
-        <div className='font-Gazapacho italic font-[1000] text-6xl leading-[80%] tracking-wider text-left gap-20 flex flex-col pt-10 w-[40%] overflow-hidden '>
+        <div className='font-Gazapacho italic font-[1000] text-7xl leading-[80%] tracking-wider text-left gap-20 flex flex-col pt-10 w-[40%] overflow-hidden '>
           <motion.h1 variants={boxVariant}
                       initial="hidden"
                       animate={control3}>Adani Group acquired NDTV by buying a company backed by the television network's founders.</motion.h1>
