@@ -36,7 +36,7 @@ function Social() {
 
   return (
     <>
-      <div id="social" className="h-full w-full flex justify-center gap-10 relative">
+      <div id="social" className="h-full w-full flex justify-center gap-10 relative mb-20">
         
         <div className='relative top-0 width-[60%] height-[62vh] mt-[2vh] p-10 flex justify-between '>
           <div className='sticky h-[20%] top-[8rem]'>
@@ -44,14 +44,14 @@ function Social() {
                   className=' relative bg-[green] rounded-[20%] z-10 grayscale'
                   width={500}
                   height={200}/>
-            <div className="absolute z-10 ml-10 top-20 -right-5">
+            <div className="absolute z-10 ml-10 top-[40%] -right-5">
                 <Image  src={'/logo.svg'}
                         width={160}
                         height={500}
                         className='backdrop '
                         alt={'Feather'}/>
             </div>   
-            <div className="absolute z-10 ml-10 top-0 -right-20">
+            <div className="absolute z-10 ml-10 top-[20%]  -right-20">
                 <Image  src={'/logo.svg'}
                         width={300}
                         height={300}
@@ -60,7 +60,7 @@ function Social() {
           </div>
         </div>
         
-        <div className='font-Gazapacho italic font-[1000] text-7xl leading-[80%] tracking-wider text-left gap-20 flex flex-col pt-10 w-[40%] overflow-hidden '>
+        <div className='font-Gazapacho italic font-[1000] text-8xl leading-[80%] tracking-wider text-left gap-20 flex flex-col pt-10 w-[40%] overflow-hidden '>
           <motion.h1 variants={boxVariant}
                       initial="hidden"
                       animate={control3}>Adani Group acquired NDTV by buying a company backed by the television network's founders.</motion.h1>
