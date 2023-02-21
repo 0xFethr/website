@@ -21,9 +21,9 @@ const Value = () => {
   
   return (
     <>
-      <div  className="h-[450vh] mt-20 w-full relative flex justify-center">
+      <div  className="h-[220vh] mt-20 w-full relative flex justify-center">
         <div className="sticky top-[2.5rem] w-[90%] h-[90vh]">
-          <motion.div className="z-10 top-0 absolute rounded-[3rem] w-full h-full bg-[url('../public/Tags.svg')]" style={{backgroundPositionX:(-textScaleX.current+1400).toString()+'px'}}/>
+          <motion.div className="z-10 top-0 absolute rounded-[3rem] w-full h-full bg-[url('../public/Tags.svg')] bg-repeat-space" style={{backgroundPositionX:(-textScaleX.current+2000).toString()+'px'}}/>
           <motion.div className="z-0 absolute rounded-[3rem] w-full h-full bg-[url('../public/Bg.png')] " style={{backgroundPositionX:(scaleX.current+500).toString()+'px'}}/>
         </div>
       </div>

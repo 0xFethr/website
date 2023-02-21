@@ -29,9 +29,9 @@ const CTA = () => {
                   fill
                   alt={'Feather'}/>
       </div>
-      <div className='w-full h-[55%] bg-accent rounded-t-[5rem] flex flex-col items-center hero font-thin relative z-20'
+      <div className='w-full h-[55%] bg-accent rounded-t-[5rem] flex flex-col items-center hero font-thin relative z-20 justify-end'
            ref={body}>
-        <div className='relative flex justify-center items-center'>
+        <div className='relative flex justify-center items-center top-[-10%]'>
           <div className="absolute -top-[1.5rem] z-10 left-0">
               <Image  src={'/logo.svg'}
                       width={50}
@@ -55,7 +55,7 @@ const CTA = () => {
         </div>
         <div className='line mt-10'></div>
         <div className='flex justify-between pl-10 h-[50%]  w-screen '>
-          <ul className='opacity-[0.8] font-Gazapacho italic font-[1000] text-6xl leading-[80%] tracking-widest text-left w-3/5'>
+          <ul className='opacity-[0.8] font-Gazapacho italic font-[1000] text-8xl leading-[80%] tracking-widest text-left w-3/5'>
               <li className='relative z-5'>Latest News</li>
               <li className='relative z-20'>Delivered with</li>
               <li className='relative z-20'>Authenticity</li>
