@@ -51,7 +51,7 @@ const CTA = () => {
                       height={100}
                       alt={'Feather'}/>
           </div>
-          <Link href='#h'><p className='rounded-[50%] border-[1px] border-[#ffffff70] p-10 w-[10rem] h-[10rem] flex items-center text-center' >Join The Movement</p></Link>
+          <Link href='https://fethr.vercel.app/'><p className='rounded-[50%] border-[1px] border-[#ffffff70] p-10 w-[10rem] h-[10rem] flex items-center text-center' >Join The Movement</p></Link>
         </div>
         <div className='line mt-10'></div>
         <div className='flex justify-between pl-10 h-[50%]  w-screen '>
